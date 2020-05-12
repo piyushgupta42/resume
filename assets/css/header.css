@@ -1,0 +1,60 @@
+.logo{
+	display: inline-block;
+}
+.navbar-brand{
+	height: auto;
+	padding: 0;
+}
+.logo--img img{
+	width: 50px;
+}
+.logo--img, .img--content{
+	display: table-cell;
+	vertical-align: middle;
+}
+.logo--content, .img--img{
+	display: table-cell;
+	vertical-align: middle;
+}
+.logo--content h1{
+	font-size: 18px;
+}
+.logo--content p{
+	font-size: 15px;
+}
+.header--navbar{
+	position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 20px;
+    -webkit-transition: .25s;
+    transition: .25s;
+    z-index: 1;
+}
+.header--navbar  li {
+    padding: 0 15px;
+}
+.header--navbar li a{
+	position: relative;padding: 15px 0;
+}
+.header--navbar li a:hover:before, .header--navbar  li.active a:before{
+	width: 90%;
+}
+.header--navbar li a:before{
+	content: "";
+	position: absolute;
+	left: 5px;
+	bottom: 26px;
+	transition: width .25s ease-in-out;
+	-webkit-transition:width .25s ease-in-out;
+	height: 1px;
+	background: #303030;
+	width: 0;
+}
+nav a{color:#000;}
+ .shrink {
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #f9f9f9;
+}

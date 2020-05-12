@@ -1,0 +1,19 @@
+@import url('assets/css/header.css');
+@import url('assets/css/banner.css');
+@import url('assets/css/about-us.css');
+@import url('assets/css/portfolio.css');
+@import url('assets/css/contact.css');
+p, ol li, .personal-information{
+	font-size:16px !important;
+}
+footer p, footer a{
+	color: #fff;
+}
+footer a:hover{
+	color: #fff;
+	text-decoration: none;
+}
+ul li a:hover, .logo--content{
+	color: #000;
+}
+
